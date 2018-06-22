@@ -1,4 +1,4 @@
-Plan:
+# Plan:
 Get user input 
 Feed the input a google search
 Get html source (code) for the google search page
