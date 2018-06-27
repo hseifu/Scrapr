@@ -14,7 +14,7 @@ login_url = 'https://campusnet.jacobs-university.de'
 browser = webdriver.Firefox()  #Open firefox browser
 browser.get(login_url)
 
-time.sleep(1)
+time.sleep(2)
 
 browser.find_element_by_id("field_user").send_keys(sys.argv[1])
 browser.find_element_by_id("field_pass").send_keys(sys.argv[2])
